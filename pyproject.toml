@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "csfd-parser"
+version = "0.1.0"
+description = ""
+authors = ["Roman Zydyk <romanzdk@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+beautifulsoup4 = "^4.12.3"
+aiohttp = "^3.9.5"
+pandas = "^2.2.2"
+openpyxl = "^3.1.2"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.2"
+mypy = "^1.10.0"
+ruff = "^0.4.2"
+types-beautifulsoup4 = "^4.12.0.20240229"
+pandas-stubs = "^2.2.1.240316"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
